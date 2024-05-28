@@ -69,7 +69,7 @@ builder.Services.AddScoped<IGenericRepository<VacationType>, VacationTypeReposit
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowBlazorWasm", 
         builder => builder
-        .WithOrigins("http://localhost:5161", "https://localhost:5161")
+        .WithOrigins("https://potential-orbit-6j66vrj47rx35wx4-3000.app.github.dev")
         .AllowAnyMethod()
         .AllowAnyHeader()
         .AllowCredentials()
